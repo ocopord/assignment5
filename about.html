@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="porter">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> css practice</title>
+  <style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #808080;
+}
+
+
+header {
+  background-image: linear-gradient(#00ffcc, #808080);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: right;
+  width: 100%;
+  height: 20px; 
+  background: #00ffcc;
+  padding: 20px;
+  
+  
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 5px 10px 30px;
+  
+}
+nav li {
+     display: inline;
+	 padding: 10px;
+	 margin-bottom: 10px;
+	
+	 
+	 
+	 
+}
+nav a{
+    color: white;
+	text-decoration: none;
+}
+a:hover {
+  color: #808080;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color #808080;
+  color: #00ffcc;
+  height: 300px;
+}
+
+
+section::after { 
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-image: linear-gradient(#00ffcc, #808080);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+  
+<header>
+  
+  <h2>Card shark</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Football</a></li>
+      <li><a href="#">Basketball</a></li>
+      <li><a href="#">About</a></li>
+	  <li><a href="#">People</a></li>
+	  
+    </ul>
+  </nav>
+  
+  <article>
+  
+  <h1>Sports</h1>
+	
+    <p style= font-family: 'Amatic SC', cursive;
+color: white;
+padding: 3%;
+font-size: 2vw;>this page would be talking about the what the pages is about and 
+  what the website is gonna do. This will include when its updating what sports the site will cover and
+  when it will happen. It will be like a place we can communicate about what needs to happen</p>
+	
+ 
+  
+ 
+  </article>
+  </style>
+</section>
+
+<footer>
+  <p>Copyright Disclaimer under section 107 of the Copyright Act of 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research.
+
+Fair use is a use permitted by copyright statute that might otherwise be infringing</p>
+</footer>
+
+
+
+</body>
+</html>
